@@ -2,14 +2,12 @@
 # stdlib imports
 from os import environ as env
 from datetime import datetime
-from urllib.parse import urlencode
 
 # 3rd party imports
 import aiohttp
 from fastapi.logger import logger
 from fastapi.responses import JSONResponse
-from fastapi import responses, status
-from bs4 import BeautifulSoup
+from fastapi import status
 
 # Local imports
 from src.models import *
